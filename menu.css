@@ -1,0 +1,87 @@
+body{
+  background: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3147&q=80);
+}
+
+h1{
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-weight: 3000px;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  opacity: 0.8;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.menucontainer{
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  padding-top: 2%;
+  padding-right: 30%;
+  padding-left: 30%;
+  padding-bottom: 2%;
+}
+
+.item1 {
+  text-align: center;
+    font-style: italic;
+}
+
+.title1{
+  text-align: left;
+}
+
+.friedrice{
+  text-align: center;
+
+}
+
+.button1{
+  text-align: right;
+}

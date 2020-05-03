@@ -1,0 +1,76 @@
+body{
+  background: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3147&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+html{
+  height: 100%;
+}
+
+#content {
+  text-align: center;
+  padding-top: 25%;
+}
+
+
+
+h1{
+ font-weight: 700;
+ font-size: 5em;
+}
+
+
+.container2{
+
+  margin: 25%;
+
+}
+
+.icon_and_names{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+
+.icon_and_names ul li{
+	color: #26B2A7;
+  list-style: none;
+
+
+	}
+
+  .icon_and_names ul li{
+
+    padding-bottom: 100px;
+  }
+
+  .icon_and_names img {
+    width: 280px;
+
+  }
+
+.food{
+  font-size: 20px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+h5{
+  color: blue;
+}
+
+p{
+  color: blue;
+}
+
+.order{
+  padding-top: 20px;
+}
+
+.sand{
+  padding-bottom: 50px;
+}
