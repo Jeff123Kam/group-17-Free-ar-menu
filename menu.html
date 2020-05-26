@@ -3,76 +3,102 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu</title>
-  <link rel="stylesheet" type="text/css" href="ingridients1.html">
-  <link rel="stylesheet" type="text/css" href="ingridients2.html">
-  <link rel="stylesheet" type="text/css" href="ingridients3.html">
-  <link rel="stylesheet" type="text/css" href="ingridients4.html">
-  <link rel="stylesheet" type="text/css" href="ingridients5.html">
-  <link rel="stylesheet" type="text/css" href="menu.css">
-  <link rel="stylesheet" type="text/css" href="menu.js">
+  <title>Free AR menu</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container">
 
-  <div class="topnav">
-    <a href="#home" class="active">Home</a>
-    <div id="myLinks">
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#index.html">AR menu</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="aboutus.html">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="sign-in.html">SIGN IN</a></li>
+          <li><a href="#">LOGIN</a></li>
+
+        </ul>
+      </div>
+  </nav>
+
+  <div class="carde">
+    <div class="containery">
+      <br>
+        <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="textbox">
+        <button class="btn btn-default btn-lg"><a type="button" href="option.html">Entrée</a></button>
+      </div>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
 
-  <div style="padding-left:16px">
-    <h1>Food</h1>
-  </div>
+  <br>
 
-  <div class="menucontainer">
-    <div class="item1">
-      <div class="title1">
-        <h3>1. Fried Rice..................................<button type="button" onclick="alert('Hello world!')">+</button>
-          <button type="button" onclick="alert('Hello world!')">AR View</button>
-          <button class="btn btn-default btn-lg"><a type="button" href="Ingridients1.html">View Ingredients</a></button>
-        </h3>
-      </div>
-
-      <div class="title1">
-        <h3>2. Sandwich...................................<button type="button" onclick="alert('Hello world!')">+</button>
-          <button type="button" onclick="alert('Hello world!')">AR View</button>
-          <button class="btn btn-default btn-lg"><a type="button" href="Ingridients2.html">View Ingredients</a></button>
-        </h3>
-      </div>
-
-      <div class="title1">
-        <h3>3. Hamburger................................<button type="button" onclick="alert('Hello world!')">+</button>
-          <button type="button" onclick="alert('Hello world!')">AR View</button>
-          <button class="btn btn-default btn-lg"><a type="button" href="Ingridients3.html">View Ingredients</a></button>
-        </h3>
-      </div>
-
-      <div class="title1">
-        <h3>4. Tomato Soup.............................<button type="button" onclick="alert('Hello world!')">+</button>
-          <button type="button" onclick="alert('Hello world!')">AR View</button>
-          <button class="btn btn-default btn-lg"><a type="button" href="Ingridients4.html">View Ingredients</a></button>
-        </h3>
-        <div class="title1">
-          <h3>5. Chicken.....................................<button type="button" onclick="alert('Hello world!')">+</button>
-            <button type="button" onclick="alert('Hello world!')">AR View</button>
-            <button class="btn btn-default btn-lg"><a type="button" href="Ingridients5.html">View Ingredients</a></button>
-          </h3>
-          <div class="title1">
-            <h3>6. Steak..........................................<button type="button" onclick="alert('Hello world!')">+</button>
-              <button type="button" onclick="alert('Hello world!')">AR View</button>
-              <button class="btn btn-default btn-lg"><a type="button" href="Ingridients6.html">View Ingredients</a></button>
-            </h3>
-          </div>
+  <div class="cardw">
+    <div class="containery">
+      <div id="content">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+          <br>
+        <br>
+        <br>
+        <div class="textbox">
+          <button class="btn btn-default btn-lg"><a type="button" href="Food_Drinks_Desert_secondpage.html">Wine</a></button>
         </div>
       </div>
+    </div>
+  </div>
 
+  <br>
+
+  <div class="cardd">
+    <div class="containery">
+      <div id="content">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+          <br>
+        <br>
+        <div class="textbox">
+          <button class="btn btn-default btn-lg"><a type="button" href="Food_Drinks_Desert_secondpage.html">Dessert</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -1,84 +1,372 @@
-body{
-  background: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3147&q=80);
+body {
+  background-color: #FF4D4D;
   background-size: cover;
   background-position: center;
-  color: white;
 }
 
-html{
+html {
   height: 100%;
 }
 
-#content {
+.card {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 40%;
   text-align: center;
-  padding-top: 25%;
+  position: relative;
+  left: 30%;
+}
+
+.menucontainer {
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  padding-top: 2%;
+  padding-right: 30%;
+  padding-left: 15%;
+  padding-bottom: 2%;
+}
+
+.item1 {
+  text-align: center;
+  font-style: italic;
+}
+
+.title1 {
+  text-align: left;
+}
+
+.friedrice {
+  text-align: center;
+}
+
+.button1 {
+  text-align: right;
 }
 
 
-
-h1{
- font-weight: 700;
- font-size: 5em;
+.carda {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 40%;
+  text-align: center;
+  position: relative;
+  left: 30%;
 }
 
+.cardk {
+  background: url(https://b.zmtcdn.com/data/pictures/2/19118032/d208009c322ff72de137e4dea9aaf7b0.jpg);
+  box-shadow: 0 0 20px #000000;
+  box-shadow: 0 0 20px #000000;
+  width: 40%;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  left: 30%;
+}
 
-.container2{
+.cardy {
+  background: url(https://media.timeout.com/images/100418555/image.jpg);
+  box-shadow: 0 0 20px #000000;
+  box-shadow: 0 0 20px #000000;
+  width: 40%;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  left: 30%;
+}
 
+.cardf {
+  background: url(https://s3-eu-west-1.amazonaws.com/htsi-ez-prod/ez/images/7/5/8/5/815857-1-eng-GB/main_33c06cb8-9863-4fa1-af40-4bd6ed0e2aa7.jpeg);
+  box-shadow: 0 0 20px #000000;
+  box-shadow: 0 0 20px #000000;
+  width: 40%;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  left: 30%;
+}
+
+.carde {
+  background: url(https://img.delicious.com.au/EgoRAyYG/w1200/del/2015/10/prawns-on-toast-toast-skagen-14996-1.jpg);
+  box-shadow: 0 0 20px #fff;
+  box-shadow: 0 0 20px #fff;
+  width: 40%;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  left: 30%;
+}
+
+.cardw {
+  background: url(https://i.pinimg.com/originals/2b/08/49/2b0849ba829eee9aef8bb2161e1460c8.jpg);
+  box-shadow: 0 0 20px #fff;
+  box-shadow: 0 0 20px #fff;
+  width: 40%;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  left: 30%;
+}
+
+.cardd {
+  background: url(https://images5.alphacoders.com/341/thumb-1920-341445.jpg);
+  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px #fff;
+  width: 40%;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  left: 30%;
+}
+
+.dessert {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 15%;
+}
+
+.wine {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 15%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerx {
+  opacity: 0.8;
+  padding: 2px 6px;
+  background-color: black;
+}
+
+.textbox {
+  background-color: black;
+  opacity: 0.9;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  font
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.container2 {
   margin: 25%;
-
 }
 
-.icon_and_names{
+.icon_and_names {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-
 }
 
-
-.icon_and_names ul li{
-	color: #26B2A7;
+.icon_and_names ul li {
+  color: #26B2A7;
   list-style: none;
+}
 
+.icon_and_names ul li {
+  padding-bottom: 100px;
+}
 
-	}
+.icon_and_names img {
+  width: 280px;
+}
 
-  .icon_and_names ul li{
-
-    padding-bottom: 100px;
-  }
-
-  .icon_and_names img {
-    width: 280px;
-
-  }
-
-.food{
+.food {
   font-size: 20px;
   padding-bottom: 10px;
   list-style-type: none;
 }
 
-h5{
+h5 {
   color: blue;
 }
 
-p{
+p {
   color: blue;
 }
 
-.order{
+.order {
   padding-top: 20px;
 }
 
-.sand{
+.sand {
   padding-bottom: 50px;
 }
 
-.image {
-  padding-right: 170px;
-}
+@media (max-width:400px) {
+  .menucontainer {
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
 
-.Dessert {
-  padding-right: 20px;
+  }
+
+  .item1 {
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+
+  .title1 {
+    text-align: left;
+      width: 10%;
+  }
+
+  .friedrice {
+    text-align: center;
+  }
+
+  .button1 {
+    text-align: right;
 }
+    .card {
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.2s;
+      width: 85%;
+      text-align: center;
+      position: relative;
+      left: 8%;
+      padding-top: 30%;
+    }
+
+
+    .carda {
+      background: url(https://media.guestofaguest.com/t_article_content/gofg-media/2018/01/1/50234/10891829_10152664464242057_6059957278538876303_n.jpg);
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.2s;
+      width: 70%;
+      text-align: center;
+      position: relative;
+      left: 15%;
+    }
+
+    .cardk {
+      background: url(https://media.guestofaguest.com/t_article_content/gofg-media/2018/01/1/50234/10891829_10152664464242057_6059957278538876303_n.jpg);
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.2s;
+      width: 40%;
+      text-align: center;
+      position: relative;
+      left: 30%;
+    }
+
+    .cardy {
+      background: url(https://www.wallpaperup.com/uploads/wallpapers/2015/07/24/761420/c0216adae91fa2889b27c73853b9ffee-1000.jpg);
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.2s;
+      width: 40%;
+      text-align: center;
+      position: relative;
+      left: 30%;
+    }
+
+    .cardf {
+      background: url(https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Fhtsi-ez-prod%2Fez%2Fimages%2F7%2F5%2F8%2F5%2F815857-1-eng-GB%2Fmain_33c06cb8-9863-4fa1-af40-4bd6ed0e2aa7.jpeg?height=700&format=jpg&dpr=2&source=htsi);
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.2s;
+      width: 40%;
+      text-align: center;
+      background-size: cover;
+      position: relative;
+      left: 30%;
+    }
+
+    .dessert {
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.2s;
+      width: 70%;
+      text-align: center;
+      position: relative;
+      left: 15%;
+    }
+
+    .wine {
+      background: url(https://wallpaperaccess.com/full/468014.jpg);
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.2s;
+      width: 70%;
+      text-align: center;
+      position: relative;
+      left: 15%;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .containerx {
+      background-color: black;
+      opacity: 0.9;
+      padding: 2px 6px;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .container2 {
+      margin: 25%;
+    }
+
+    .icon_and_names {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .icon_and_names ul li {
+      color: #26B2A7;
+      list-style: none;
+    }
+
+    .icon_and_names ul li {
+      padding-bottom: 100px;
+    }
+
+    .icon_and_names img {
+      width: 280px;
+    }
+
+    .food {
+      font-size: 20px;
+      padding-bottom: 10px;
+      list-style-type: none;
+    }
+
+    h5 {
+      color: blue;
+    }
+
+    p {
+      color: blue;
+    }
+
+    .order {
+      padding-top: 20px;
+    }
+
+    .sand {
+      padding-bottom: 50px;
+    }
+  }
